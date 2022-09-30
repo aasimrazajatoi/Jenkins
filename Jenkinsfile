@@ -1,6 +1,5 @@
 pipeline {
     agent any
-    tools {node}
     stages {
         stage ("source") {
             steps {
