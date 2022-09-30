@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ("source") {
             steps {
-                git clone https://github.com/simonplend/example-app-nodejs-backend-react-frontend.git
+                sh 'git clone https://github.com/simonplend/example-app-nodejs-backend-react-frontend.git'
             }
         }
         
