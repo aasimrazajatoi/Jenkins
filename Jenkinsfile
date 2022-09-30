@@ -9,6 +9,7 @@ pipeline {
         
         stage ("install dependencies") {
             steps {
+                sh 'cd example-app-nodejs-backend-react-frontend'
                 sh 'npm install'
             }
         }
